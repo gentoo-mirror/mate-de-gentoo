@@ -1,0 +1,37 @@
+app-arch/engrampa 1.12.0: Engrampa archive manager for MATE
+app-editors/pluma 1.12.0 1.12.1: Pluma text editor for the MATE desktop
+app-text/atril 1.12.0 1.12.2: Atril document viewer for MATE
+dev-libs/libmateweather 1.10.0 1.12.0 1.12.0-r1 1.12.1: MATE library to access weather information from online services
+dev-python/python-caja 1.8.0 1.12.0: Python bindings for the Caja file manager
+mate-base/caja 1.12.0 1.12.0-r1 1.12.2: Caja file manager for the MATE desktop
+mate-base/libmatekbd 1.10.0 1.12.0 1.12.0-r1 1.12.1: MATE keyboard configuration library
+mate-base/mate 1.12.0: Meta ebuild for MATE, a traditional desktop environment
+mate-base/mate-applets 1.10.3 1.12.0 1.12.1: Applets for the MATE Desktop and Panel
+mate-base/mate-common 1.12.0: Common files for development of MATE packages
+mate-base/mate-control-center 1.10.1 1.12.0-r1 1.12.1: The MATE Desktop configuration tool
+mate-base/mate-desktop 1.10.1 1.12.0 1.12.1: Libraries for the MATE desktop that are not part of the UI
+mate-base/mate-menus 1.10.0 1.12.0 1.12.0-r1: MATE menu system, implementing the F.D.O cross-desktop spec
+mate-base/mate-panel 1.10.1 1.12.0-r1 1.12.1: The MATE panel
+mate-base/mate-session-manager 1.10.2 1.12.0-r1 1.12.1: MATE session manager
+mate-base/mate-settings-daemon 1.12.0-r1 1.12.1: MATE Settings Daemon
+mate-extra/caja-dropbox 1.10.0 1.12.0: Store, Sync and Share Files Online
+mate-extra/caja-extensions 1.10.1 1.12.0: Several Caja extensions
+mate-extra/mate-media 1.10.0 1.12.0 1.12.1: Multimedia related programs for the MATE desktop
+mate-extra/mate-polkit 1.10.0 1.12.0: A MATE specific DBUS session bus service that is used to bring up authentication dialogs
+mate-extra/mate-power-manager 1.12.0 1.12.1: A session daemon for MATE that makes it easy to manage your laptop or desktop system
+mate-extra/mate-screensaver 1.12.0: Replaces xscreensaver, integrating with the MATE desktop
+mate-extra/mate-sensors-applet 1.8.0 1.12.0 1.12.1: MATE panel applet to display readings from hardware sensors
+mate-extra/mate-system-monitor 1.10.1 1.12.0 1.12.1: The MATE System Monitor
+mate-extra/mate-user-guide 1.12.0: MATE user-guide
+mate-extra/mate-user-share 1.12.0: Personal file sharing for the MATE desktop
+mate-extra/mate-utils 1.8.1 1.12.0: Utilities for the MATE desktop
+media-gfx/eom 1.12.0 1.12.1: The MATE image viewer
+media-libs/libmatemixer 1.10.0 1.12.0-r1 1.12.1: Mixer library for MATE Desktop
+net-analyzer/mate-netspeed 1.12.0: Applet showing network traffic for MATE
+x11-misc/mate-notification-daemon 1.10.0 1.12.0 1.12.1: MATE Notification daemon
+x11-misc/mozo 1.12.0: Mozo menu editor for MATE
+x11-terms/mate-terminal 1.10.1 1.12.0 1.12.1: The MATE Terminal
+x11-themes/mate-backgrounds 1.10.0 1.12.0: A set of backgrounds packaged with the MATE desktop
+x11-themes/mate-icon-theme 1.10.1 1.12.0 1.12.0-r1: MATE default icon themes
+x11-themes/mate-themes 1.12.0 1.12.1: A set of MATE themes, with sets for users with limited or low vision
+x11-wm/marco 1.10.1 1.12.0 1.12.0-r1 1.12.1: MATE default window manager
