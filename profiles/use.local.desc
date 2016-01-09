@@ -62,3 +62,6 @@ net-analyzer/mate-netspeed:gtk3 - Build with GTK3 support
 x11-misc/mate-notification-daemon:gtk3 - Build with GTK3 support
 x11-misc/mozo:gtk3 - Build with GTK3 support
 x11-terms/mate-terminal:gtk3 - Build with GTK3 support
+x11-wm/marco:gtk3 - Build with GTK3+
+x11-wm/marco:startup-notification - disable marco's startup notification support, for embedded/size-sensitive custom non-MATE builds
+x11-wm/marco:xinerama - Enable support for multiple screens using xinerama
