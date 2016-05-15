@@ -4,7 +4,7 @@ app-text/atril 1.12.0 1.12.2 1.13.0: Atril document viewer for MATE
 dev-libs/libmateweather 1.10.0 1.12.0 1.12.0-r1 1.12.1 1.13.0: MATE library to access weather information from online services
 dev-python/python-caja 1.8.0 1.12.0 1.13.0: Python bindings for the Caja file manager
 mate-base/caja 1.12.0 1.12.0-r1 1.12.2 1.13.0: Caja file manager for the MATE desktop
-mate-base/libmatekbd 1.10.0 1.12.0 1.12.0-r1 1.12.1 1.13.0: MATE keyboard configuration library
+mate-base/libmatekbd 1.12.0-r1 1.12.1 1.13.0 1.14.0: MATE keyboard configuration library
 mate-base/mate 1.12.0: Meta ebuild for MATE, a traditional desktop environment
 mate-base/mate-applets 1.10.3 1.12.0 1.12.1 1.13.0: Applets for the MATE Desktop and Panel
 mate-base/mate-common 1.12.0 1.13.0: Common files for development of MATE packages
