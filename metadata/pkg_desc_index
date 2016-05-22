@@ -35,4 +35,4 @@ x11-terms/mate-terminal 1.10.1 1.12.0 1.12.1 1.13.0: The MATE Terminal
 x11-themes/mate-backgrounds 1.10.0 1.12.0 1.13.0: A set of backgrounds packaged with the MATE desktop
 x11-themes/mate-icon-theme 1.12.0-r1 1.13.0 1.14.0: MATE default icon themes
 x11-themes/mate-themes 1.12.0 1.12.1: A set of MATE themes, with sets for users with limited or low vision
-x11-wm/marco 1.10.1 1.12.0 1.12.0-r1 1.12.1 1.13.0: MATE default window manager
+x11-wm/marco 1.12.1 1.13.0 1.14.0: MATE default window manager
