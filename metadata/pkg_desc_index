@@ -18,7 +18,7 @@ mate-extra/caja-dropbox 1.10.0 1.12.0: Store, Sync and Share Files Online
 mate-extra/caja-extensions 1.10.1 1.12.0 1.13.0: Several Caja extensions
 mate-extra/mate-media 1.10.0 1.12.0 1.12.1 1.13.0: Multimedia related programs for the MATE desktop
 mate-extra/mate-netbook 1.12.0: MATE utilities for netbooks
-mate-extra/mate-polkit 1.10.0 1.12.0 1.13.0: A MATE specific DBUS session bus service that is used to bring up authentication dialogs
+mate-extra/mate-polkit 1.10.0 1.12.0 1.13.0 1.14.0: A MATE specific DBUS session bus service used to bring up authentication dialogs
 mate-extra/mate-power-manager 1.12.0 1.12.1 1.13.0: A session daemon for MATE that makes it easy to manage your laptop or desktop system
 mate-extra/mate-screensaver 1.12.0 1.13.0: Replaces xscreensaver, integrating with the MATE desktop
 mate-extra/mate-sensors-applet 1.8.0 1.12.0 1.12.1 1.13.0: MATE panel applet to display readings from hardware sensors
