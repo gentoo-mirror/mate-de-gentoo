@@ -8,10 +8,10 @@ mate-base/libmatekbd 1.12.0-r1 1.12.1 1.13.0 1.14.0: MATE keyboard configuration
 mate-base/mate 1.12.0: Meta ebuild for MATE, a traditional desktop environment
 mate-base/mate-applets 1.10.3 1.12.0 1.12.1 1.13.0: Applets for the MATE Desktop and Panel
 mate-base/mate-common 1.12.0 1.14.0: Common files for development of MATE packages
-mate-base/mate-control-center 1.10.1 1.12.0-r1 1.12.1 1.13.0: The MATE Desktop configuration tool
+mate-base/mate-control-center 1.10.1 1.12.0-r1 1.12.1 1.13.0 1.14.0: The MATE Desktop configuration tool
 mate-base/mate-desktop 1.10.1 1.12.0 1.12.1 1.13.0 1.14.0: Libraries for the MATE desktop that are not part of the UI
-mate-base/mate-menus 1.10.0 1.12.0 1.12.0-r1 1.13.0: MATE menu system, implementing the F.D.O cross-desktop spec
-mate-base/mate-panel 1.10.1 1.12.0-r1 1.12.1 1.13.0: The MATE panel
+mate-base/mate-menus 1.10.0 1.12.0-r1 1.13.0 1.14.0: MATE menu system, implementing the F.D.O cross-desktop spec
+mate-base/mate-panel 1.10.1 1.12.0-r1 1.12.1 1.13.0 1.14.0: The MATE panel
 mate-base/mate-session-manager 1.10.2 1.12.1 1.13.0 1.14.0: MATE session manager
 mate-base/mate-settings-daemon 1.12.0-r1 1.12.1 1.13.0 1.14.0: MATE Settings Daemon
 mate-extra/caja-dropbox 1.10.0 1.12.0: Store, Sync and Share Files Online
