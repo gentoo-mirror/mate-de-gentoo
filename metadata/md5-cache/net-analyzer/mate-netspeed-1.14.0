@@ -1,0 +1,9 @@
+DEFINED_PHASES=postinst
+DESCRIPTION=Applet showing network traffic for MATE
+EAPI=5
+HOMEPAGE=mate-desktop.org
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:-
+_md5_=4100f8ac82916beefe4558d70599afe6
