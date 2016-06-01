@@ -31,7 +31,7 @@ media-libs/libmatemixer 1.10.0 1.12.0-r1 1.13.0 1.14.0: Mixer library for MATE D
 net-analyzer/mate-netspeed 1.12.0: Applet showing network traffic for MATE
 x11-misc/mate-notification-daemon 1.10.0 1.12.0 1.12.1 1.13.0 1.14.0: MATE Notification daemon
 x11-misc/mozo 1.12.0 1.13.0: Mozo menu editor for MATE
-x11-terms/mate-terminal 1.10.1 1.12.0 1.12.1 1.13.0: The MATE Terminal
+x11-terms/mate-terminal 1.10.1 1.12.0 1.12.1 1.13.0 1.14.0: The MATE Terminal
 x11-themes/mate-backgrounds 1.10.0 1.12.0 1.13.0 1.14.0: A set of backgrounds packaged with the MATE desktop
 x11-themes/mate-icon-theme 1.12.0-r1 1.13.0 1.14.0: MATE default icon themes
 x11-themes/mate-themes 1.12.0 1.12.1: A set of MATE themes, with sets for users with limited or low vision
