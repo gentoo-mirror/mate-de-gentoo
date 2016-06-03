@@ -1,4 +1,4 @@
-app-arch/engrampa 1.12.0 1.13.0: Engrampa archive manager for MATE
+app-arch/engrampa 1.12.0 1.13.0 1.14.0: Engrampa archive manager for MATE
 app-editors/pluma 1.12.0 1.12.1 1.13.0: Pluma text editor for the MATE desktop
 app-text/atril 1.12.0 1.12.2 1.13.0: Atril document viewer for MATE
 dev-libs/libmateweather 1.10.0 1.12.0-r1 1.12.1 1.13.0 1.14.0: MATE library to access weather information from online services
