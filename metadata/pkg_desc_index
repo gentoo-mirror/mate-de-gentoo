@@ -1,5 +1,5 @@
 app-arch/engrampa 1.12.0 1.13.0 1.14.0: Engrampa archive manager for MATE
-app-editors/pluma 1.12.0 1.12.1 1.13.0: Pluma text editor for the MATE desktop
+app-editors/pluma 1.12.0 1.12.1 1.13.0 1.14.0: Pluma text editor for the MATE desktop
 app-text/atril 1.12.0 1.12.2 1.13.0 1.14.0: Atril document viewer for MATE
 dev-libs/libmateweather 1.10.0 1.12.0-r1 1.12.1 1.13.0 1.14.0: MATE library to access weather information from online services
 dev-python/python-caja 1.12.0 1.13.0 1.14.0: Python bindings for the Caja file manager
@@ -30,7 +30,7 @@ media-gfx/eom 1.12.0 1.12.1 1.13.0 1.14.0: The MATE image viewer
 media-libs/libmatemixer 1.10.0 1.12.0-r1 1.13.0 1.14.0: Mixer library for MATE Desktop
 net-analyzer/mate-netspeed 1.12.0 1.14.0: Applet showing network traffic for MATE
 x11-misc/mate-notification-daemon 1.10.0 1.12.0 1.12.1 1.13.0 1.14.0: MATE Notification daemon
-x11-misc/mozo 1.12.0 1.13.0: Mozo menu editor for MATE
+x11-misc/mozo 1.12.0 1.13.0 1.14.0: Mozo menu editor for MATE
 x11-terms/mate-terminal 1.10.1 1.12.0 1.12.1 1.13.0 1.14.0: The MATE Terminal
 x11-themes/mate-backgrounds 1.10.0 1.12.0 1.13.0 1.14.0: A set of backgrounds packaged with the MATE desktop
 x11-themes/mate-icon-theme 1.12.0-r1 1.13.0 1.14.0: MATE default icon themes
