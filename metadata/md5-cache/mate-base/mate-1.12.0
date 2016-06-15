@@ -10,4 +10,4 @@ RDEPEND==mate-base/mate-desktop-1.12*:0[gtk3?] =mate-base/mate-menus-1.12*:0 =ma
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	c9d9187f4caa4026a0ceddd8dfceb3c1	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=7995dd93305c490114fa40c18ff824a3
+_md5_=271b59c0e4c5de0d371fee0fbd04ab8b
