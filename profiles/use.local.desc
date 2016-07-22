@@ -62,6 +62,7 @@ mate-extra/mate-utils:applet - Enable the mate dictionary applet
 mate-extra/mate-utils:gtk3 - Build with GTK3 support
 media-gfx/eom:gtk3 - Build with GTK3 support
 net-analyzer/mate-netspeed:gtk3 - Build with GTK3 support
+x11-misc/mate-dock-applet:gtk3 - Build with GTK3+
 x11-misc/mate-notification-daemon:gtk3 - Build with GTK3 support
 x11-misc/mozo:gtk3 - Build with GTK3 support
 x11-terms/mate-terminal:gtk3 - Build with GTK3 support
