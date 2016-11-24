@@ -3,70 +3,73 @@
 # * generated automatically using pmaint *
 
 app-arch/engrampa:caja - Enable engrampa to integrate with mate-base/caja by providing entries in its context menu
-app-arch/engrampa:gtk3 - Build with GTK3 support
+app-arch/engrampa:gtk3 - Build with GTK+3 instead of GTK+2
 app-arch/engrampa:magic - Enable filetype auto-detection via sys-apps/file
-app-editors/pluma:gtk3 - Build with GTK3 support
+app-arch/engrampa:packagekit - Enable support for installing via app-admin/packagekit based on archive type
+app-editors/pluma:gtk3 - Build with GTK+3 instead of GTK+2
 app-text/atril:caja - Enable property page extension in mate-base/caja
 app-text/atril:dvi - Enable build-in DVI viewer
 app-text/atril:epub - Enable build-in DVI viewer using net-libs/webkit-gtk
-app-text/atril:gtk3 - Build with GTK3 support
-app-text/atril:ps - Enable build-in postscript viewer
+app-text/atril:gtk3 - Build with GTK+3 instead of GTK+2
 app-text/atril:t1lib - Enable the Type-1 fonts for the build-in DVI viewer (media-libs/t1lib)
-app-text/atril:tiff - Enable TIFF viewer using media-libs/tiff
-app-text/atril:xps - Enable XPS viewer using app-text/libxps
-dev-libs/libmateweather:gtk3 - Link against version 3 of the GIMP Toolkit instead of version 2 (x11-libs/gtk+)
-dev-python/python-caja:gtk3 - Build with GTK3
-mate-base/caja:gtk3 - Build mate-desktop with GTK3 support
+app-text/atril:xps - Enable XPS viewer using app-text/libgxps
+dev-libs/libmateweather:gtk3 - Build with GTK+3 instead of GTK+2
+dev-python/python-caja:gtk3 - Build with GTK+3 instead of GTK+2
+mate-base/caja:gtk3 - Build with GTK+3 instead of GTK+2
 mate-base/caja:mate - Install x11-themes/mate-icon-theme which is needed when this package is used in the MATE desktop environment.
-mate-base/libmatekbd:gtk3 - Build mate-desktop with GTK3 support
+mate-base/caja:packagekit - Enable support for installing via app-admin/packagekit based on mimetype
+mate-base/libmatekbd:gtk3 - Build with GTK+3 instead of GTK+2
 mate-base/mate:base - Install base MATE Desktop applications that are recommended for the most common usage; for example, this installs the file manager. Disable this and other USE flags if you want a more minimal MATE Desktop.
 mate-base/mate:extras - Install additional MATE Desktop applications that are recommended for extended usage of the MATE Desktop as upstream sees it; for example, this installs MATE Desktop's office related applications. Disable this if you plan to use your own non-MATE Desktop alternatives or a custom mixture of MATE and non-MATE packages.
-mate-base/mate:gnome - Install sys-apps/gnome-disk-utility
-mate-base/mate:gtk3 - Enable gtk3 support for packages that support this option
+mate-base/mate:gtk3 - Build all of MATE DE with GTK+3 instead of GTK+2
+mate-base/mate:help - Install gnome-extra/yelp to handle in application help menus and documentation browsing
+mate-base/mate:notification - Force notification daemon to default to MATE's notification daemon. Enabled by default. Disable if it causes conflicts with other installed desktop environments.
 mate-base/mate:themes - Install MATE Desktop's themes; if you use other themes, you can disable this to spare some space and time.
-mate-base/mate-applets:gtk3 - Build mate-desktop with GTK3 support
-mate-base/mate-control-center:gtk3 - Build with GTK3 support
-mate-base/mate-desktop:gtk3 - Build mate-desktop with GTK3 support
+mate-base/mate-applets:gtk3 - Build with GTK+3 instead of GTK+2
+mate-base/mate-applets-meta:appindicator - Pull in mate-extra/mate-indicator-applet for AppIndicator applet
+mate-base/mate-applets-meta:gtk3 - Make sure applets are built with GTK+3 instead of GTK+2
+mate-base/mate-applets-meta:netspeed - Pull in net-analyzer/mate-netspeed for net speed monitoring applet
+mate-base/mate-applets-meta:sensors - Pull in mate-extra/mate-sensors-applet for hw sensors applet
+mate-base/mate-control-center:appindicator - Add support for AppIndicator
+mate-base/mate-control-center:gtk3 - Build with GTK+3 instead of GTK+2
+mate-base/mate-desktop:gtk3 - Build with GTK+3 instead of GTK+2
 mate-base/mate-desktop:user-guide - Install MATE user guide
-mate-base/mate-menus:gtk3 - Build with GTK3 support
-mate-base/mate-panel:gtk3 - Build with GTK3 support
-mate-base/mate-session-manager:gtk3 - Build mate-desktop with GTK3 support
-mate-base/mate-settings-daemon:gtk3 - Build mate-desktop with GTK3 support
+mate-base/mate-panel:gtk3 - Build with GTK+3 instead of GTK+2
+mate-base/mate-session-manager:gtk3 - Build with GTK+3 instead of GTK+2
+mate-base/mate-settings-daemon:gtk3 - Build with GTK+3 instead of GTK+2
+mate-extra/caja-extensions:cdr - Add an extension to burn files to cds using app-cdr/brasero.
 mate-extra/caja-extensions:gajim - Add an extension to support net-im/gajim.
-mate-extra/caja-extensions:gtk3 - Build with GTK3 support
+mate-extra/caja-extensions:gksu - Add an extension to support opening files as root with x11-libs/gksu.
+mate-extra/caja-extensions:gtk3 - Build with GTK+3 instead of GTK+2
 mate-extra/caja-extensions:image-converter - Add image conversion support.
 mate-extra/caja-extensions:mail - Add an extension to support e-mail functionality.
 mate-extra/caja-extensions:open-terminal - Add an extension to support an open terminal.
 mate-extra/caja-extensions:pidgin - Add an extension to support net-im/pidgin
 mate-extra/caja-extensions:share - Add an extension to support sharing files.
 mate-extra/caja-extensions:wallpaper - Add an extension to support setting an image as the current wallpaper
-mate-extra/mate-media:aac - Add aac gstreamer support
-mate-extra/mate-media:flac - Add flac gstreamer support
-mate-extra/mate-media:gtk3 - Build with gtk3 support
-mate-extra/mate-media:mp3 - Add mp3 gstreamer support
-mate-extra/mate-media:speex - Add speex gstreamer support
-mate-extra/mate-media:twolame - Add twolame gstreamer support
-mate-extra/mate-media:vorbis - Add vorbis gstreamer support
-mate-extra/mate-netbook:gtk3 - Build mate-desktop with GTK3 support
-mate-extra/mate-polkit:gtk3 - Build with GTK3 support
-mate-extra/mate-polkit:indicator - Enable support for application indicator
+mate-extra/mate-indicator-applet:gtk3 - Build with GTK+3 instead of GTK+2
+mate-extra/mate-media:gtk3 - Build with GTK+3 instead of GTK+2
+mate-extra/mate-netbook:gtk3 - Build with GTK+3 instead of GTK+2
+mate-extra/mate-polkit:accountsservice - Support extraction of data from AccountsService
+mate-extra/mate-polkit:appindicator - Add support for AppIndicator
+mate-extra/mate-polkit:gtk3 - Build with GTK+3 instead of GTK+2
 mate-extra/mate-power-manager:applet - Enable building of the MATE applet.
-mate-extra/mate-power-manager:gtk3 - Build with GTK3 support
+mate-extra/mate-power-manager:gtk3 - Build with GTK+3 instead of GTK+2
 mate-extra/mate-power-manager:man - Build power manager's man page.
+mate-extra/mate-power-manager:pm-utils - Adds support for suspend/resume using sys-power/upower-pm-utils instead of sys-power/upower
 mate-extra/mate-power-manager:unique - Enable single instance support using dev-libs/libunique.
-mate-extra/mate-screensaver:consolekit - Enable support for sys-auth/consolkekit
-mate-extra/mate-screensaver:gtk3 - Build with GTK support
-mate-extra/mate-sensors-applet:gtk3 - Build with GTK3 support
-mate-extra/mate-system-monitor:gtk3 - Build with GTK3 support
-mate-extra/mate-user-share:gtk3 - Build with GTK3 support
+mate-extra/mate-screensaver:consolekit - Enable support for sys-auth/consolekit
+mate-extra/mate-screensaver:gtk3 - Build with GTK+3 instead of GTK+2
+mate-extra/mate-sensors-applet:gtk3 - Build with GTK+3 instead of GTK+2
+mate-extra/mate-system-monitor:gtk3 - Build with GTK+3 instead of GTK+2
+mate-extra/mate-user-share:gtk3 - Build with GTK+3 instead of GTK+2
 mate-extra/mate-utils:applet - Enable the mate dictionary applet
-mate-extra/mate-utils:gtk3 - Build with GTK3 support
-media-gfx/eom:gtk3 - Build with GTK3 support
-net-analyzer/mate-netspeed:gtk3 - Build with GTK3 support
+mate-extra/mate-utils:gtk3 - Build with GTK+3 instead of GTK+2
+media-gfx/eom:gtk3 - Build with GTK+3 instead of GTK+2
+net-analyzer/mate-netspeed:gtk3 - Build with GTK+3 instead of GTK+2
 x11-misc/mate-dock-applet:gtk3 - Build with GTK3+
-x11-misc/mate-notification-daemon:gtk3 - Build with GTK3 support
-x11-misc/mozo:gtk3 - Build with GTK3 support
-x11-terms/mate-terminal:gtk3 - Build with GTK3 support
-x11-wm/marco:gtk3 - Build with GTK3+
-x11-wm/marco:startup-notification - disable marco's startup notification support, for embedded/size-sensitive custom non-MATE builds
-x11-wm/marco:xinerama - Enable support for multiple screens using xinerama
+x11-misc/mate-notification-daemon:gtk3 - Build with GTK+3 instead of GTK+2
+x11-misc/mozo:gtk3 - Build with GTK+3 instead of GTK+2
+x11-terms/mate-terminal:gtk3 - Build with GTK+3 instead of GTK+2
+x11-themes/mate-themes-meta:gtk2-only - Allow dependency-resolution for a system without GTK+3
+x11-wm/marco:gtk3 - Build with GTK+3 instead of GTK+2
