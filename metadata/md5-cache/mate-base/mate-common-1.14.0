@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=http://pub.mate-desktop.org/releases/1.14/mate-common-1.14.0.tar.xz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	mate-desktop.org	69a0f50dcb300b04a513d60bc326029c	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	mate-desktop.org	69a0f50dcb300b04a513d60bc326029c	versionator	2352c3fc97241f6a02042773c8287748
 _md5_=6a252b666e6965a5f039b43abe488ee4
