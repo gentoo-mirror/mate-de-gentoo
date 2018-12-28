@@ -1,13 +1,12 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
 inherit mate
 
 if [[ ${PV} != 9999 ]]; then
-	KEYWORDS="~amd64 ~arm ~x86"
+	KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 fi
 
 DESCRIPTION="The MATE System Monitor"
@@ -31,7 +30,8 @@ COMMON_DEPEND="
 	virtual/libintl:0
 	systemd? ( sys-apps/systemd )"
 
-RDEPEND="${COMMON_DEPEND}"
+RDEPEND="${COMMON_DEPEND}
+	>=sys-auth/polkit-0.97:0"
 
 DEPEND="${COMMON_DEPEND}
 	app-text/yelp-tools:0
@@ -47,7 +47,4 @@ src_configure() {
 
 pkg_postinst() {
 	mate_pkg_postinst
-
-	einfo "${PN} may run commands with escalated privileges using"
-	einfo "x11-libs/gksu."
 }
