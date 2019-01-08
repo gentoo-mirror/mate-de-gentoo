@@ -1,20 +1,19 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
 inherit mate
 
 if [[ ${PV} != 9999 ]]; then
-	KEYWORDS="~amd64 ~arm ~x86"
+	KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 fi
 
 DESCRIPTION="The MATE Terminal"
 LICENSE="GPL-3"
 SLOT="0"
 
-IUSE="gtk3"
+IUSE=""
 
 COMMON_DEPEND="dev-libs/atk:0
 	>=dev-libs/glib-2.36:2
@@ -24,11 +23,11 @@ COMMON_DEPEND="dev-libs/atk:0
 	x11-libs/libSM:0
 	x11-libs/libX11:0
 	x11-libs/pango:0
-	>=x11-libs/gtk+-3.14:3
-	>=x11-libs/vte-0.38:2.91
-	"
+	>=x11-libs/gtk+-3.14:3[X]
+	>=x11-libs/vte-0.38:2.91"
 
-RDEPEND="${COMMON_DEPEND}"
+RDEPEND="${COMMON_DEPEND}
+	>=mate-base/mate-desktop-1.6"
 
 DEPEND="${COMMON_DEPEND}
 	app-text/rarian:0
@@ -37,7 +36,3 @@ DEPEND="${COMMON_DEPEND}
 	>=dev-util/intltool-0.50.1:*
 	sys-devel/gettext:*
 	virtual/pkgconfig:*"
-
-src_configure() {
-	mate_src_configure
-}
