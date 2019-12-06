@@ -1,9 +1,9 @@
 app-arch/engrampa 1.20.1 1.22.1-r1 1.22.2 1.23.2 9999: Engrampa archive manager for MATE
-app-editors/pluma 1.20.2 1.22.1 1.22.2 9999: Pluma text editor for the MATE desktop
-app-text/atril 1.20.3 1.22.1 1.22.2 9999: Atril document viewer for MATE
-dev-libs/libmateweather 1.18.0 1.18.1 1.20.1 1.22.0-r1 1.22.1 9999: MATE library to access weather information from online services
-dev-python/python-caja 1.20.2 1.22.0-r1 1.22.1 9999: Python bindings for the Caja file manager
-mate-base/caja 1.20.3-r2 1.22.1 1.22.2 9999: Caja file manager for the MATE desktop
+app-editors/pluma 1.20.2 1.22.1 1.22.2 1.23.2 9999: Pluma text editor for the MATE desktop
+app-text/atril 1.20.3 1.22.1 1.22.2 1.23.1 9999: Atril document viewer for MATE
+dev-libs/libmateweather 1.18.0 1.18.1 1.20.1 1.22.0-r1 1.22.1 1.23.0 9999: MATE library to access weather information from online services
+dev-python/python-caja 1.20.2 1.22.0-r1 1.22.1 1.23.0 9999: Python bindings for the Caja file manager
+mate-base/caja 1.20.3-r2 1.22.1 1.22.2 1.23.2 9999: Caja file manager for the MATE desktop
 mate-base/libmatekbd 1.20.2 1.22.0 9999: MATE keyboard configuration library
 mate-base/mate 1.22 9999: Meta ebuild for MATE, a traditional desktop environment
 mate-base/mate-applets 1.20.3 1.22.1 1.22.2 9999: Applets for the MATE Desktop and Panel
@@ -37,7 +37,7 @@ x11-misc/mate-notification-daemon 1.20.2 1.22.0-r1 1.22.1 9999: MATE Notificatio
 x11-misc/mozo 1.22.1 1.22.2 9999: Mozo menu editor for MATE
 x11-terms/mate-terminal 1.20.2 1.22.1 9999: The MATE Terminal
 x11-themes/mate-backgrounds 1.20.0 1.22.0 9999: A set of backgrounds packaged with the MATE desktop
-x11-themes/mate-icon-theme 1.20.2 1.22.1 1.22.2 9999: MATE default icon themes
+x11-themes/mate-icon-theme 1.20.2 1.22.1 1.22.2 1.23.2 9999: MATE default icon themes
 x11-themes/mate-icon-theme-faenza 1.20.0 9999: Faenza icon theme, that was adapted for MATE desktop
 x11-themes/mate-themes 3.20.10 3.20.13 3.20.9999 3.22.4 3.22.18 3.22.18-r1 3.22.19 3.22.9999: A set of MATE themes, with sets for users with limited or low vision
 x11-themes/mate-themes-meta 3-r1 3-r2 3-r3 9999: Meta package to facilitate easy use of x11-themes/mate-themes
