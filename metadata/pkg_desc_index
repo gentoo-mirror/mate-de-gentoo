@@ -5,9 +5,9 @@ dev-libs/libmateweather 1.18.0 1.18.1 1.20.1 1.22.0-r1 1.22.1 1.23.0 9999: MATE 
 dev-python/python-caja 1.20.2 1.22.0-r1 1.22.1 1.23.0 9999: Python bindings for the Caja file manager
 mate-base/caja 1.20.3-r2 1.22.1 1.22.2 1.23.2 9999: Caja file manager for the MATE desktop
 mate-base/libmatekbd 1.20.2 1.22.0 1.23.0 9999: MATE keyboard configuration library
-mate-base/mate 1.22 9999: Meta ebuild for MATE, a traditional desktop environment
+mate-base/mate 1.22 1.23 9999: Meta ebuild for MATE, a traditional desktop environment
 mate-base/mate-applets 1.20.3 1.22.1 1.22.2 1.23.0 9999: Applets for the MATE Desktop and Panel
-mate-base/mate-applets-meta 1.22.0 9999: Meta package for MATE panel applets
+mate-base/mate-applets-meta 1.22.0 1.23.0 9999: Meta package for MATE panel applets
 mate-base/mate-common 1.20.0 1.22.0 1.22.2 1.23.3 9999: Common files for development of MATE packages
 mate-base/mate-control-center 1.20.4 1.22.1 1.22.2 1.23.2 9999: The MATE Desktop configuration tool
 mate-base/mate-desktop 1.20.3-r1 1.22.0 1.22.2 1.23.2 9999: Libraries for the MATE desktop that are not part of the UI
@@ -36,7 +36,7 @@ x11-misc/mate-dock-applet 0.80 0.85 0.87: Application dock for the MATE panel
 x11-misc/mate-notification-daemon 1.20.2 1.22.0-r1 1.22.1 1.23.0 9999: MATE Notification daemon
 x11-misc/mozo 1.22.1 1.22.2 1.23.0 9999: Mozo menu editor for MATE
 x11-terms/mate-terminal 1.20.2 1.22.1 1.23.0 9999: The MATE Terminal
-x11-themes/mate-backgrounds 1.20.0 1.22.0 9999: A set of backgrounds packaged with the MATE desktop
+x11-themes/mate-backgrounds 1.20.0 1.22.0 1.23.0 9999: A set of backgrounds packaged with the MATE desktop
 x11-themes/mate-icon-theme 1.20.2 1.22.1 1.22.2 1.23.2 9999: MATE default icon themes
 x11-themes/mate-icon-theme-faenza 1.20.0 9999: Faenza icon theme, that was adapted for MATE desktop
 x11-themes/mate-themes 3.20.10 3.20.13 3.20.9999 3.22.4 3.22.18 3.22.18-r1 3.22.19 3.22.9999: A set of MATE themes, with sets for users with limited or low vision
