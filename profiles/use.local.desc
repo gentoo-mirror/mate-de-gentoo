@@ -4,7 +4,7 @@
 
 app-arch/engrampa:caja - Enable engrampa to integrate with mate-base/caja by providing entries in its context menu
 app-arch/engrampa:magic - Enable filetype auto-detection via sys-apps/file
-app-arch/engrampa:packagekit - Enable support for installing via app-admin/packagekit based on archive type
+app-arch/engrampa:packagekit - Enable support for installing via app-admin/packagekit based on the archive type
 app-text/atril:caja - Enable property page extension in mate-base/caja
 app-text/atril:dvi - Enable build-in DVI viewer
 app-text/atril:epub - Enable build-in DVI viewer using net-libs/webkit-gtk
