@@ -1,6 +1,7 @@
 app-arch/engrampa 1.20.1 1.22.1-r1 1.22.2 1.23.2 1.23.3 9999: Engrampa archive manager for MATE
 app-editors/pluma 1.20.2 1.22.1 1.22.2 1.23.2 1.23.3 9999: Pluma text editor for the MATE desktop
 app-text/atril 1.20.3 1.22.1 1.22.2 1.23.1 1.23.2 9999: Atril document viewer for MATE
+dev-libs/glib 2.62.4: The GLib library of C routines
 dev-libs/libmateweather 1.18.0 1.18.1 1.20.1 1.22.0-r1 1.22.1 1.23.0 9999: MATE library to access weather information from online services
 dev-python/python-caja 1.20.2 1.22.0-r1 1.22.1 1.23.0 1.23.1 9999: Python bindings for the Caja file manager
 mate-base/caja 1.20.3-r2 1.22.1 1.22.2 1.23.2 9999: Caja file manager for the MATE desktop
