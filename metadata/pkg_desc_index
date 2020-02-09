@@ -11,9 +11,9 @@ mate-base/mate-applets 1.20.3 1.22.1 1.22.2 1.23.0 1.23.1 9999: Applets for the 
 mate-base/mate-applets-meta 1.22.0 1.23.0 9999: Meta package for MATE panel applets
 mate-base/mate-common 1.20.0 1.22.0 1.22.2 1.23.3 9999: Common files for development of MATE packages
 mate-base/mate-control-center 1.20.4 1.22.1 1.22.2 1.23.2 1.23.3 9999: The MATE Desktop configuration tool
-mate-base/mate-desktop 1.20.3-r1 1.22.0 1.22.2 1.23.2 9999: Libraries for the MATE desktop that are not part of the UI
+mate-base/mate-desktop 1.20.3-r1 1.22.0 1.22.2 1.23.2 1.23.3 9999: Libraries for the MATE desktop that are not part of the UI
 mate-base/mate-menus 1.20.1 1.20.2 1.22.0-r1 1.22.1 1.23.0 9999: MATE menu system, implementing the F.D.O cross-desktop spec
-mate-base/mate-panel 1.20.3 1.20.4 1.22.1 1.22.2 1.23.2 9999: The MATE panel
+mate-base/mate-panel 1.20.3 1.20.4 1.22.1 1.22.2 1.23.2 1.23.3 9999: The MATE panel
 mate-base/mate-session-manager 1.20.2 1.22.1 1.22.2 1.23.0 9999: MATE session manager
 mate-base/mate-settings-daemon 1.20.3-r1 1.22.0-r1 1.22.1 1.23.2 1.23.3 9999: MATE Settings Daemon
 mate-extra/caja-dropbox 1.20.0 1.22.1 1.23.0 9999: Store, Sync and Share Files Online
