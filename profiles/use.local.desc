@@ -8,6 +8,7 @@ app-arch/engrampa:packagekit - Enable support for installing via app-admin/packa
 app-text/atril:caja - Enable property page extension in mate-base/caja
 app-text/atril:dvi - Enable build-in DVI viewer
 app-text/atril:epub - Enable build-in DVI viewer using net-libs/webkit-gtk
+app-text/atril:synctex - Add support for searching TeX sources
 app-text/atril:t1lib - Enable the Type-1 fonts for the build-in DVI viewer (media-libs/t1lib)
 app-text/atril:xps - Enable XPS viewer using app-text/libgxps
 dev-libs/glib:dbus - Enable dependencies required by glib libraries using dbus service to manage settings saving
