@@ -8,21 +8,21 @@ MATE_LA_PUNT="yes"
 inherit mate
 
 if [[ ${PV} != 9999 ]]; then
-	KEYWORDS="~amd64 ~arm ~arm64 ~x86"
+	KEYWORDS="amd64 ~arm ~arm64 x86"
 fi
 
 DESCRIPTION="Atril document viewer for MATE"
-LICENSE="GPL-2"
+LICENSE="FDL-1.1+ GPL-2+ GPL-3+ LGPL-2+ LGPL-2.1+"
 SLOT="0"
 
-IUSE="caja dbus debug djvu dvi epub +introspection gnome-keyring +postscript t1lib tiff xps"
+IUSE="caja dbus debug djvu doc dvi epub +introspection gnome-keyring +postscript t1lib tiff xps"
 
 REQUIRED_USE="t1lib? ( dvi )"
 
-RDEPEND="
+COMMON_DEPEND="
 	>=app-text/poppler-0.22[cairo]
 	dev-libs/atk
-	dev-libs/glib
+	>=dev-libs/glib-2.62:2
 	>=dev-libs/libxml2-2.5:2
 	sys-libs/zlib
 	x11-libs/gdk-pixbuf:2
@@ -32,6 +32,7 @@ RDEPEND="
 	x11-libs/libX11
 	>=x11-libs/cairo-1.14
 	x11-libs/pango
+	virtual/tex-base
 	caja? ( >=mate-base/caja-1.17.1[introspection?] )
 	djvu? ( >=app-text/djvu-3.5.17:0 )
 	dvi? (
@@ -47,20 +48,27 @@ RDEPEND="
 	postscript? ( >=app-text/libspectre-0.2 )
 	tiff? ( >=media-libs/tiff-3.6:0 )
 	xps? ( >=app-text/libgxps-0.2.1 )
-	!!app-text/mate-document-viewer"
+"
 
-DEPEND="${RDEPEND}
+RDEPEND="${COMMON_DEPEND}
+	virtual/libintl
+	!!app-text/mate-document-viewer
+"
+
+DEPEND="${COMMON_DEPEND}
 	app-text/docbook-xml-dtd:4.1.2
 	app-text/rarian
 	app-text/yelp-tools
 	>=app-text/scrollkeeper-dtd-1:1.0
 	dev-util/gdbus-codegen
 	dev-util/glib-utils
-	dev-util/gtk-doc
-	dev-util/gtk-doc-am
-	>=dev-util/intltool-0.50.1
-	sys-devel/gettext
-	virtual/pkgconfig"
+	doc? (
+		dev-util/gtk-doc
+		dev-util/gtk-doc-am
+	)
+	>=sys-devel/gettext-0.19.8:*
+	virtual/pkgconfig
+"
 
 # Tests use dogtail which is not available on Gentoo.
 RESTRICT="test"
@@ -69,6 +77,7 @@ src_configure() {
 	# Passing --disable-help would drop offline help, that would be inconsistent
 	# with helps of the most of GNOME apps that doesn't require network for that.
 	mate_src_configure \
+		--disable-static \
 		--disable-tests \
 		--enable-comics \
 		--enable-pdf \
