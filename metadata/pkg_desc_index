@@ -16,7 +16,7 @@ mate-base/mate-menus 1.24.0 9999: MATE menu system, implementing the F.D.O cross
 mate-base/mate-panel 1.24.0-r2 1.24.1 9999: The MATE panel
 mate-base/mate-session-manager 1.20.2 1.22.1 1.22.2 1.23.0 1.24.0 9999: MATE session manager
 mate-base/mate-settings-daemon 1.20.3-r1 1.22.0-r1 1.22.1 1.23.2 1.23.3 1.24.0 9999: MATE Settings Daemon
-mate-extra/caja-dropbox 1.20.0 1.22.1 1.23.0 1.24.0 9999: Store, Sync and Share Files Online
+mate-extra/caja-dropbox 1.24.0 9999: Store, Sync and Share Files Online
 mate-extra/caja-extensions 1.20.2 1.22.0 1.22.1 1.23.0 1.23.1 1.24.0 9999: Several Caja extensions
 mate-extra/mate-calc 1.20.3 1.22.0 1.22.2 1.23.0 1.24.0 9999: Calculator for MATE
 mate-extra/mate-indicator-applet 1.20.1 1.22.0 1.22.1 1.23.0 1.24.0 9999: MATE indicator applet
@@ -34,6 +34,7 @@ media-gfx/eom 1.20.2 1.22.1 1.22.2 1.23.1 1.23.2 1.24.0 9999: The MATE image vie
 media-libs/libmatemixer 1.14.0 1.16.0 1.20.1 1.22.0 1.23.0 1.24.0 9999: Mixer library for MATE Desktop
 x11-misc/mate-dock-applet 0.80 0.85 0.87: Application dock for the MATE panel
 x11-misc/mate-notification-daemon 1.20.2 1.22.0-r1 1.22.1 1.23.0 1.23.1 1.24.0 9999: MATE Notification daemon
+x11-misc/mozo 1.24.0 9999: Mozo menu editor for MATE
 x11-terms/mate-terminal 1.20.2 1.22.1 1.23.0 1.23.1 1.24.0 9999: The MATE Terminal
 x11-themes/mate-backgrounds 1.20.0 1.22.0 1.23.0 1.24.0 1.24.1 9999: A set of backgrounds packaged with the MATE desktop
 x11-themes/mate-icon-theme 1.20.2 1.22.1 1.22.2 1.23.2 1.23.3 1.24.0 9999: MATE default icon themes
