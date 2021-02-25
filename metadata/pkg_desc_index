@@ -7,7 +7,7 @@ dev-python/python-caja 1.24.0 9999: Python bindings for the Caja file manager
 mate-base/caja 1.24.0 9999: Caja file manager for the MATE desktop
 mate-base/libmatekbd 1.23.0 1.24.0 9999: MATE keyboard configuration library
 mate-base/mate 1.22 1.23 1.24 9999: Meta ebuild for MATE, a traditional desktop environment
-mate-base/mate-applets 1.20.3 1.22.1 1.22.2 1.23.0 1.23.1 1.24.0 9999: Applets for the MATE Desktop and Panel
+mate-base/mate-applets 1.24.0 9999: Applets for the MATE Desktop and Panel
 mate-base/mate-applets-meta 1.22.0 1.23.0 1.24 9999: Meta package for MATE panel applets
 mate-base/mate-common 1.20.0 1.22.0 1.22.2 1.23.3 1.24.0 1.24.1 9999: Common files for development of MATE packages
 mate-base/mate-control-center 1.24.0 9999: The MATE Desktop configuration tool
@@ -27,16 +27,16 @@ mate-extra/mate-power-manager 1.20.3 1.22.1 1.22.2 1.23.1 1.23.2 1.24.0 1.24.1 9
 mate-extra/mate-screensaver 1.22.1 1.22.2 1.23.1 1.23.1-r1 1.24.0 9999: Replaces xscreensaver, integrating with the MATE desktop
 mate-extra/mate-sensors-applet 1.22.1 1.23.0 1.24.0 9999: MATE panel applet to display readings from hardware sensors
 mate-extra/mate-system-monitor 1.20.2 1.22.0 1.22.2 1.23.1 1.24.0 9999: The MATE System Monitor
-mate-extra/mate-user-guide 1.20.2 1.22.2 1.22.3 1.23.1 1.24.0 9999: User documentation for MATE Desktop
+mate-extra/mate-user-guide 1.24.0 9999: User documentation for MATE Desktop
 mate-extra/mate-user-share 1.20.1 1.22.1 1.23.0 1.24.0 9999: Personal file sharing for the MATE desktop
 mate-extra/mate-utils 1.20.2 1.22.1-r1 1.22.2 1.23.1 1.23.2 1.24.0-r1 9999: Utilities for the MATE desktop
 media-gfx/eom 1.20.2 1.22.1 1.22.2 1.23.1 1.23.2 1.24.0 9999: The MATE image viewer
 media-libs/libmatemixer 1.14.0 1.16.0 1.20.1 1.22.0 1.23.0 1.24.0 9999: Mixer library for MATE Desktop
 x11-misc/mate-dock-applet 0.80 0.85 0.87: Application dock for the MATE panel
-x11-misc/mate-notification-daemon 1.20.2 1.22.0-r1 1.22.1 1.23.0 1.23.1 1.24.0 9999: MATE Notification daemon
+x11-misc/mate-notification-daemon 1.24.0 9999: MATE Notification daemon
 x11-misc/mozo 1.24.0 9999: Mozo menu editor for MATE
 x11-terms/mate-terminal 1.20.2 1.22.1 1.23.0 1.23.1 1.24.0 9999: The MATE Terminal
-x11-themes/mate-backgrounds 1.20.0 1.22.0 1.23.0 1.24.0 1.24.1 9999: A set of backgrounds packaged with the MATE desktop
+x11-themes/mate-backgrounds 1.24.0 1.24.1 9999: A set of backgrounds packaged with the MATE desktop
 x11-themes/mate-icon-theme 1.20.2 1.22.1 1.22.2 1.23.2 1.23.3 1.24.0 9999: MATE default icon themes
 x11-themes/mate-icon-theme-faenza 1.20.0 9999: Faenza icon theme, that was adapted for MATE desktop
 x11-themes/mate-themes 3.20.10 3.20.13 3.20.9999 3.22.4 3.22.18 3.22.18-r1 3.22.19 3.22.9999: A set of MATE themes, with sets for users with limited or low vision
