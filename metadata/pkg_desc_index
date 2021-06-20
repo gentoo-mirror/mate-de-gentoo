@@ -1,6 +1,6 @@
 acct-group/dropbox 0: System group: dropbox
 app-arch/engrampa 1.24.0 9999: Engrampa archive manager for MATE
-app-editors/pluma 1.24.0 9999: Pluma text editor for the MATE desktop
+app-editors/pluma 1.24.1 9999: Pluma text editor for the MATE desktop
 app-text/atril 1.24.0 1.24.0-r1 1.24.0-r2 9999: Atril document viewer for MATE
 dev-libs/libmateweather 1.24.0 9999: MATE library to access weather information from online services
 dev-python/python-caja 1.24.0 9999: Python bindings for the Caja file manager
