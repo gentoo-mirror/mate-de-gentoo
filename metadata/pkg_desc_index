@@ -16,7 +16,7 @@ mate-base/mate-menus 1.24.0 9999: MATE menu system, implementing the F.D.O cross
 mate-base/mate-panel 1.24.0-r2 1.24.1 9999: The MATE panel
 mate-base/mate-session-manager 1.24.1 9999: MATE session manager
 mate-base/mate-settings-daemon 1.20.3-r1 1.22.0-r1 1.22.1 1.23.2 1.23.3 1.24.0 9999: MATE Settings Daemon
-mate-extra/caja-dropbox 1.24.0 9999: Store, Sync and Share Files Online
+mate-extra/caja-dropbox 1.24.0-r1 9999: Store, Sync and Share Files Online
 mate-extra/caja-extensions 1.24.0 9999: Several Caja extensions
 mate-extra/mate-calc 1.24.0 9999: Calculator for MATE
 mate-extra/mate-indicator-applet 1.24.0 9999: MATE indicator applet
