@@ -1,9 +1,9 @@
 DEFINED_PHASES=-
 DESCRIPTION=Meta package for MATE panel applets
-EAPI=7
+EAPI=6
 HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
 IUSE=appindicator sensors
 LICENSE=metapackage
 RDEPEND==mate-base/mate-applets-9999* appindicator? ( =mate-extra/mate-indicator-applet-9999* ) sensors? ( =mate-extra/mate-sensors-applet-9999* )
 SLOT=0
-_md5_=b06da93b9ce69867a67d1b5daf701a01
+_md5_=8ea5f451784d73e5c1bf37f001409b3a

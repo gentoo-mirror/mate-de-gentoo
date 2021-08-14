@@ -7,4 +7,4 @@ KEYWORDS=amd64 ~arm ~arm64 x86
 LICENSE=metapackage
 RDEPEND=|| ( gtk2-only? ( !!x11-libs/gtk+:3 x11-themes/mate-themes:0 ) ( >=x11-libs/gtk+-3.22:3 >=x11-themes/mate-themes-3.22.18 ) )
 SLOT=0
-_md5_=b65a601d40e9277f0d51e195e7b0882f
+_md5_=56d44e1da8c900b271175d55d0ed94c9

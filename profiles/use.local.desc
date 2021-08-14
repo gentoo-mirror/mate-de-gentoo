@@ -3,25 +3,24 @@
 # * generated automatically using pmaint *
 
 app-arch/engrampa:caja - Enable engrampa to integrate with mate-base/caja by providing entries in its context menu
-app-arch/engrampa:magic - Enable filetype auto-detection via sys-apps/file
-app-arch/engrampa:packagekit - Enable support for installing via app-admin/packagekit based on the archive type
+app-arch/engrampa:packagekit - Enable support for installing via Packagekit based on archive type
 app-text/atril:caja - Enable property page extension in mate-base/caja
 app-text/atril:dvi - Enable build-in DVI viewer
 app-text/atril:epub - Enable build-in DVI viewer using net-libs/webkit-gtk
-app-text/atril:synctex - Add support for searching TeX sources
+app-text/atril:synctex - Enable search highlighting through synctex (virtual/tex-base)
 app-text/atril:t1lib - Enable the Type-1 fonts for the build-in DVI viewer (media-libs/t1lib)
 app-text/atril:xps - Enable XPS viewer using app-text/libgxps
 mate-base/caja:mate - Install x11-themes/mate-icon-theme which is needed when this package is used in the MATE desktop environment.
-mate-base/caja:packagekit - Enable support for installing via app-admin/packagekit based on mimetype
+mate-base/caja:packagekit - Enable support for installing via PackageKit based on mimetype
 mate-base/mate:base - Install base MATE Desktop applications that are recommended for the most common usage; for example, this installs the file manager. Disable this and other USE flags if you want a more minimal MATE Desktop.
 mate-base/mate:extras - Install additional MATE Desktop applications that are recommended for extended usage of the MATE Desktop as upstream sees it; for example, this installs MATE Desktop's office related applications. Disable this if you plan to use your own non-MATE Desktop alternatives or a custom mixture of MATE and non-MATE packages.
 mate-base/mate:help - Install gnome-extra/yelp to handle in application help menus and documentation browsing
 mate-base/mate:notification - Force notification daemon to default to MATE's notification daemon. Enabled by default. Disable if it causes conflicts with other installed desktop environments.
 mate-base/mate:themes - Install MATE Desktop's themes; if you use other themes, you can disable this to spare some space and time.
+mate-base/mate-applets:cpupower - Enable support for cpu frequency manipulation using sys-power/cpupower
 mate-base/mate-applets-meta:appindicator - Pull in mate-extra/mate-indicator-applet for AppIndicator applet
 mate-base/mate-applets-meta:sensors - Pull in mate-extra/mate-sensors-applet for hw sensors applet
 mate-base/mate-control-center:accountsservice - Add support for AccountsService
-mate-base/mate-control-center:appindicator - Add support for AppIndicator
 mate-base/mate-session-manager:gles2 - Build with support for GLESv2 acceleration sessions
 mate-base/mate-session-manager:xtrans - Build with Xtrans support; WARNING: Disabling this flag will result in ICE binding on all interfaces
 mate-base/mate-settings-daemon:rfkill - build support for rfkill
@@ -34,11 +33,8 @@ mate-extra/caja-extensions:pidgin - Add an extension to support net-im/pidgin
 mate-extra/caja-extensions:share - Add an extension to support sharing files.
 mate-extra/caja-extensions:wallpaper - Add an extension to support setting an image as the current wallpaper
 mate-extra/mate-polkit:accountsservice - Support extraction of data from AccountsService
-mate-extra/mate-polkit:appindicator - Add support for AppIndicator
-mate-extra/mate-polkit:gtk3 - Build with GTK+3 instead of GTK+2
 mate-extra/mate-power-manager:applet - Enable building of the MATE applet.
 mate-extra/mate-power-manager:libsecret - Support locking of keyring via app-crypt/libsecret
-mate-extra/mate-screensaver:consolekit - Enable support for sys-auth/consolekit
 mate-extra/mate-utils:applet - Enable the mate dictionary applet
+media-gfx/eom:imagemagick - Use media-gfx/imagemagick as an external backend for the thumbnailer
 x11-themes/mate-themes-meta:gtk2-only - Allow dependency-resolution for a system without GTK+3
-x11-wm/marco:xpresent - Enable x11-libs/libXpresent support
