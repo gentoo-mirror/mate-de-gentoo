@@ -4,6 +4,11 @@
 
 app-arch/engrampa:caja - Enable engrampa to integrate with mate-base/caja by providing entries in its context menu
 app-arch/engrampa:packagekit - Enable support for installing via Packagekit based on archive type
+app-editors/pluma-plugins:bracketcompletion - Auto complete bracket pairs
+app-editors/pluma-plugins:codecomment - Comment code blocks
+app-editors/pluma-plugins:smartspaces - Insert smart spaces
+app-editors/pluma-plugins:synctex - Enable synctex support for pdflatex
+app-editors/pluma-plugins:terminal - Embed a terminal in the bottom pane
 app-text/atril:caja - Enable property page extension in mate-base/caja
 app-text/atril:dvi - Enable build-in DVI viewer
 app-text/atril:epub - Enable build-in DVI viewer using net-libs/webkit-gtk
