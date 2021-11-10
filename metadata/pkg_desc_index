@@ -14,7 +14,7 @@ mate-base/mate-common 1.20.0 1.22.0 1.22.2 1.23.3 1.24.0 1.24.1 1.24.2 1.26.0 99
 mate-base/mate-control-center 1.24.0 1.24.1 1.24.2 1.26.0 9999: The MATE Desktop configuration tool
 mate-base/mate-desktop 1.20.3-r1 1.22.0 1.22.2 1.23.2 1.23.3 1.24.0 1.24.1 1.26.0 9999: Libraries for the MATE desktop that are not part of the UI
 mate-base/mate-menus 1.24.0 1.24.1 1.26.0 9999: MATE menu system, implementing the F.D.O cross-desktop spec
-mate-base/mate-panel 1.24.0-r2 1.24.1 1.24.2 1.26.0 9999: The MATE panel
+mate-base/mate-panel 1.24.0-r2 1.24.1 1.24.2 1.26.0 1.26.1 9999: The MATE panel
 mate-base/mate-session-manager 1.24.1 1.24.3 1.26.0 9999: MATE session manager
 mate-base/mate-settings-daemon 1.20.3-r1 1.22.0-r1 1.22.1 1.23.2 1.23.3 1.24.0 1.24.1 1.24.2 1.26.0 9999: MATE Settings Daemon
 mate-extra/caja-actions 1.26.0: Caja Actions
