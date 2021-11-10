@@ -42,6 +42,6 @@ x11-terms/mate-terminal 1.24.0 1.24.1 1.26.0 9999: The MATE Terminal
 x11-themes/mate-backgrounds 1.24.0 1.24.1 1.24.2 1.26.0 9999: A set of backgrounds packaged with the MATE desktop
 x11-themes/mate-icon-theme 1.24.0 1.24.0-r1 1.26.0 9999: MATE default icon themes
 x11-themes/mate-icon-theme-faenza 1.20.0 9999: Faenza icon theme, that was adapted for MATE desktop
-x11-themes/mate-themes 3.22.19 3.22.21 3.22.22 3.22.9999: A set of MATE themes, with sets for users with limited or low vision
+x11-themes/mate-themes 3.22.22 3.22.23 3.22.9999: A set of MATE themes, with sets for users with limited or low vision
 x11-themes/mate-themes-meta 3-r1 3-r2 3-r3 9999: Meta package to facilitate easy use of x11-themes/mate-themes
 x11-wm/marco 1.24.0 1.24.1-r1 1.24.2 1.26.0 9999: MATE default window manager
