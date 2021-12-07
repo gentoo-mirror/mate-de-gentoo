@@ -28,7 +28,7 @@ mate-extra/mate-media 1.24.0 1.24.1 1.26.0 9999: Multimedia related programs for
 mate-extra/mate-netbook 1.24.0 1.24.0-r1 1.26.0 9999: MATE utilities for netbooks
 mate-extra/mate-polkit 1.24.0 1.24.0-r1 1.26.0 9999: A MATE specific DBUS service that is used to bring up authentication dialogs
 mate-extra/mate-power-manager 1.24.2 1.24.3 1.26.0 9999: A session daemon for MATE that makes it easy to manage your laptop or desktop
-mate-extra/mate-screensaver 1.24.0 1.24.1 1.24.2 1.26.0 9999: Replaces xscreensaver, integrating with the MATE desktop
+mate-extra/mate-screensaver 1.24.0 1.24.1 1.24.2 1.26.1 9999: Replaces xscreensaver, integrating with the MATE desktop
 mate-extra/mate-sensors-applet 1.24.0 1.24.1 1.26.0 9999: MATE panel applet to display readings from hardware sensors
 mate-extra/mate-system-monitor 1.24.0 1.24.1 1.24.2 1.26.0 9999: The MATE System Monitor
 mate-extra/mate-user-guide 1.24.0 1.24.0-r2 1.26.0 9999: User documentation for MATE Desktop
