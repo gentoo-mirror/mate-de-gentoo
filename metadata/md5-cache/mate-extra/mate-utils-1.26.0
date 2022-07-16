@@ -12,5 +12,5 @@ RDEPEND=dev-libs/atk >=dev-libs/glib-2.50:2 >=gnome-base/libgtop-2.12:2= >=media
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://pub.mate-desktop.org/releases/1.26/mate-utils-1.26.0.tar.xz
-_eclasses_=toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	gnome.org	429073e99d7067d3462e875bf5c6e14a	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	xdg	6024fbc93167fad782e2032933654857	gnome2	4f729d9211b2e3c00a285d6301a557e1	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	autotools	2fd69a56a527d12409ba43c733b7ac8f	mate-desktop.org	a89e58659c8df5f186d0f8d89616e6f2	mate	553f2bcf70c72d62970c216e3a74c24d
+_eclasses_=toolchain-funcs	3484f775017f532a8d1ae02c65defe13	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	gnome.org	429073e99d7067d3462e875bf5c6e14a	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	xdg	6024fbc93167fad782e2032933654857	gnome2	4f729d9211b2e3c00a285d6301a557e1	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	autotools	2fd69a56a527d12409ba43c733b7ac8f	mate-desktop.org	a89e58659c8df5f186d0f8d89616e6f2	mate	553f2bcf70c72d62970c216e3a74c24d
 _md5_=27f29f0ae8510ad88d5582775891851d
