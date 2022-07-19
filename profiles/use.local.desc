@@ -3,7 +3,6 @@
 # * generated automatically using pmaint *
 
 app-arch/engrampa:caja - Enable engrampa to integrate with mate-base/caja by providing entries in its context menu
-app-arch/engrampa:packagekit - Enable support for installing via Packagekit based on archive type
 app-editors/pluma-plugins:bracketcompletion - Auto complete bracket pairs
 app-editors/pluma-plugins:codecomment - Comment code blocks
 app-editors/pluma-plugins:smartspaces - Insert smart spaces
