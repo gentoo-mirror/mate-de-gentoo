@@ -1,47 +1,47 @@
 acct-group/dropbox 0: System group: dropbox
-app-arch/engrampa 1.24.2-r2 1.24.2-r3 1.26.0-r1 1.26.0-r2 9999: Engrampa archive manager for MATE
-app-editors/pluma 1.24.2-r1 1.24.2-r2 1.26.0-r1 1.26.0-r2 9999: Pluma text editor for the MATE desktop
+app-arch/engrampa 1.26.0-r1 1.26.0-r2 9999: Engrampa archive manager for MATE
+app-editors/pluma 1.26.0-r1 1.26.0-r2 9999: Pluma text editor for the MATE desktop
 app-editors/pluma-plugins 1.26.0 1.26.0-r1: A set of plugins for Pluma, the MATE text editor.
-app-text/atril 1.24.0-r2 1.24.0-r4 1.24.1 1.24.1-r2 1.26.0 1.26.0-r4 9999: Atril document viewer for MATE
-dev-libs/libmateweather 1.24.1 1.26.0 9999: MATE library to access weather information from online services
-dev-python/python-caja 1.24.0-r2 1.24.0-r3 1.26.0 1.26.0-r1 9999: Python bindings for the Caja file manager
-mate-base/caja 1.24.1 1.24.1-r2 1.26.0 1.26.0-r2 1.26.1 9999: Caja file manager for the MATE desktop
-mate-base/libmatekbd 1.24.1 1.26.0 9999: MATE keyboard configuration library
-mate-base/mate 1.24 1.24-r1 1.26.0 1.26.0-r1 9999: Meta ebuild for MATE, a traditional desktop environment
-mate-base/mate-applets 1.24.1 1.24.1-r1 1.26.0 1.26.0-r1 1.26.1 9999: Applets for the MATE Desktop and Panel
-mate-base/mate-applets-meta 1.24.0 1.26.0 9999: Meta package for MATE panel applets
-mate-base/mate-common 1.24.2 1.26.0 9999: Common files for development of MATE packages
-mate-base/mate-control-center 1.24.2 1.24.2-r1 1.26.0 1.26.0-r1 9999: The MATE Desktop configuration tool
-mate-base/mate-desktop 1.24.1 1.26.0-r1 9999: Libraries for the MATE desktop that are not part of the UI
-mate-base/mate-menus 1.24.1 1.26.0 9999: MATE menu system, implementing the F.D.O cross-desktop spec
-mate-base/mate-panel 1.24.2-r1 1.24.2-r2 1.26.2 1.26.2-r1 9999: The MATE panel
-mate-base/mate-session-manager 1.24.3-r1 1.24.3-r2 1.26.0-r1 1.26.0-r2 9999: MATE session manager
-mate-base/mate-settings-daemon 1.24.2 1.24.2-r1 1.26.0 1.26.0-r1 9999: MATE Settings Daemon
+app-text/atril 1.26.0 1.26.0-r4 9999: Atril document viewer for MATE
+dev-libs/libmateweather 1.26.0 9999: MATE library to access weather information from online services
+dev-python/python-caja 1.26.0 1.26.0-r1 9999: Python bindings for the Caja file manager
+mate-base/caja 1.26.0 1.26.0-r2 1.26.1 9999: Caja file manager for the MATE desktop
+mate-base/libmatekbd 1.26.0 9999: MATE keyboard configuration library
+mate-base/mate 1.26.0 1.26.0-r1 9999: Meta ebuild for MATE, a traditional desktop environment
+mate-base/mate-applets 1.26.0 1.26.0-r1 1.26.1 9999: Applets for the MATE Desktop and Panel
+mate-base/mate-applets-meta 1.26.0 9999: Meta package for MATE panel applets
+mate-base/mate-common 1.26.0 9999: Common files for development of MATE packages
+mate-base/mate-control-center 1.26.0 1.26.0-r1 9999: The MATE Desktop configuration tool
+mate-base/mate-desktop 1.26.0-r1 9999: Libraries for the MATE desktop that are not part of the UI
+mate-base/mate-menus 1.26.0 9999: MATE menu system, implementing the F.D.O cross-desktop spec
+mate-base/mate-panel 1.26.2 1.26.2-r1 9999: The MATE panel
+mate-base/mate-session-manager 1.26.0-r1 1.26.0-r2 9999: MATE session manager
+mate-base/mate-settings-daemon 1.26.0 1.26.0-r1 9999: MATE Settings Daemon
 mate-extra/caja-actions 1.26.0: Caja Actions
 mate-extra/caja-admin 0.0.5 9999: Caja Admin Extension
-mate-extra/caja-dropbox 1.24.0-r1 1.24.0-r2 1.26.0 1.26.0-r1 9999: Store, Sync and Share Files Online
-mate-extra/caja-extensions 1.24.1 1.24.1-r1 1.26.0 1.26.0-r1 1.26.1 9999: Several Caja extensions
+mate-extra/caja-dropbox 1.26.0-r1 9999: Store, Sync and Share Files Online
+mate-extra/caja-extensions 1.26.0 1.26.0-r1 1.26.1 9999: Several Caja extensions
 mate-extra/caja-hide 0.9.0: Hide files without renaming them in MATE's Caja
-mate-extra/mate-calc 1.24.2 1.24.2-r1 1.26.0 1.26.0-r1 9999: Calculator for MATE
-mate-extra/mate-indicator-applet 1.24.0-r1 1.26.0 9999: MATE indicator applet
-mate-extra/mate-media 1.24.1 1.26.0 9999: Multimedia related programs for the MATE desktop
-mate-extra/mate-netbook 1.24.0-r1 1.26.0 9999: MATE utilities for netbooks
-mate-extra/mate-polkit 1.24.0-r1 1.24.0-r2 1.26.0 1.26.0-r1 1.26.1 9999: A MATE specific DBUS service that is used to bring up authentication dialogs
-mate-extra/mate-power-manager 1.24.3 1.24.3-r1 1.26.0 1.26.0-r1 9999: A session daemon for MATE that makes it easy to manage your laptop or desktop
-mate-extra/mate-screensaver 1.24.2 1.26.1 9999: Replaces xscreensaver, integrating with the MATE desktop
-mate-extra/mate-sensors-applet 1.24.1 1.24.1-r1 1.26.0 1.26.0-r1 9999: MATE panel applet to display readings from hardware sensors
-mate-extra/mate-system-monitor 1.24.2 1.24.2-r1 1.26.0 9999: The MATE System Monitor
-mate-extra/mate-user-guide 1.24.0-r2 1.24.0-r3 1.26.0 1.26.0-r1 9999: User documentation for MATE Desktop
-mate-extra/mate-user-share 1.24.0-r1 1.24.0-r2 1.26.0 1.26.0-r1 9999: Personal file sharing for the MATE desktop
-mate-extra/mate-utils 1.24.0-r3 1.24.0-r4 1.26.0 1.26.0-r1 9999: Utilities for the MATE desktop
-media-gfx/eom 1.24.2 1.24.2-r2 1.26.0 1.26.0-r2 9999: The MATE image viewer
-media-libs/libmatemixer 1.24.1 1.24.1-r2 1.26.0 1.26.0-r1 9999: Mixer library for MATE Desktop
-x11-misc/mate-notification-daemon 1.24.2 1.24.2-r1 1.26.0 1.26.0-r1 9999: MATE Notification daemon
-x11-misc/mozo 1.24.0-r1 1.24.0-r2 1.24.1 1.24.1-r1 1.26.1 1.26.1-r1 1.26.2 9999: Mozo menu editor for MATE
-x11-terms/mate-terminal 1.24.1 1.24.1-r1 1.26.0 1.26.0-r1 9999: The MATE Terminal
-x11-themes/mate-backgrounds 1.24.2 1.26.0 9999: A set of backgrounds packaged with the MATE desktop
-x11-themes/mate-icon-theme 1.24.0 1.24.0-r1 1.26.0 9999: MATE default icon themes
+mate-extra/mate-calc 1.26.0 1.26.0-r1 9999: Calculator for MATE
+mate-extra/mate-indicator-applet 1.26.0 9999: MATE indicator applet
+mate-extra/mate-media 1.26.0 9999: Multimedia related programs for the MATE desktop
+mate-extra/mate-netbook 1.26.0 9999: MATE utilities for netbooks
+mate-extra/mate-polkit 1.26.0 1.26.0-r1 1.26.1 9999: A MATE specific DBUS service that is used to bring up authentication dialogs
+mate-extra/mate-power-manager 1.26.0 1.26.0-r1 9999: A session daemon for MATE that makes it easy to manage your laptop or desktop
+mate-extra/mate-screensaver 1.26.1 9999: Replaces xscreensaver, integrating with the MATE desktop
+mate-extra/mate-sensors-applet 1.26.0 1.26.0-r1 9999: MATE panel applet to display readings from hardware sensors
+mate-extra/mate-system-monitor 1.26.0 9999: The MATE System Monitor
+mate-extra/mate-user-guide 1.26.0 1.26.0-r1 9999: User documentation for MATE Desktop
+mate-extra/mate-user-share 1.26.0 1.26.0-r1 9999: Personal file sharing for the MATE desktop
+mate-extra/mate-utils 1.26.0 1.26.0-r1 9999: Utilities for the MATE desktop
+media-gfx/eom 1.26.0 1.26.0-r2 9999: The MATE image viewer
+media-libs/libmatemixer 1.26.0 1.26.0-r1 9999: Mixer library for MATE Desktop
+x11-misc/mate-notification-daemon 1.26.0 1.26.0-r1 9999: MATE Notification daemon
+x11-misc/mozo 1.26.1 1.26.1-r1 1.26.2 9999: Mozo menu editor for MATE
+x11-terms/mate-terminal 1.26.0 1.26.0-r1 9999: The MATE Terminal
+x11-themes/mate-backgrounds 1.26.0 9999: A set of backgrounds packaged with the MATE desktop
+x11-themes/mate-icon-theme 1.26.0 9999: MATE default icon themes
 x11-themes/mate-icon-theme-faenza 1.20.0 9999: Faenza icon theme, that was adapted for MATE desktop
 x11-themes/mate-themes 3.22.22 3.22.23 3.22.9999: A set of MATE themes, with sets for users with limited or low vision
 x11-themes/mate-themes-meta 3-r3 9999: Meta package to facilitate easy use of x11-themes/mate-themes
-x11-wm/marco 1.24.2 1.24.2-r1 1.26.0 1.26.0-r1 1.26.1 9999: MATE default window manager
+x11-wm/marco 1.26.0 1.26.0-r1 1.26.1 9999: MATE default window manager
