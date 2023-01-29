@@ -40,7 +40,8 @@ x11-misc/mate-notification-daemon 1.26.0 1.26.0-r1 9999: MATE Notification daemo
 x11-misc/mozo 1.26.1 1.26.1-r1 1.26.2 9999: Mozo menu editor for MATE
 x11-terms/mate-terminal 1.26.0 1.26.0-r1 9999: The MATE Terminal
 x11-themes/mate-backgrounds 1.26.0 9999: A set of backgrounds packaged with the MATE desktop
-x11-themes/mate-icon-theme 1.26.0 9999: MATE default icon themes
-x11-themes/mate-themes 3.22.22 3.22.23 3.22.9999: A set of MATE themes, with sets for users with limited or low vision
+x11-themes/mate-icon-theme 1.26.0: MATE default icon themes
+x11-themes/mate-icon-theme-faenza 1.20.0: Faenza icon theme that was adapted for MATE desktop
+x11-themes/mate-themes 3.22.22 3.22.23: A set of MATE themes, with sets for users with limited or low vision
 x11-themes/mate-themes-meta 3-r3 9999: Meta package to facilitate easy use of x11-themes/mate-themes
 x11-wm/marco 1.26.0 1.26.0-r1 1.26.1 9999: MATE default window manager
