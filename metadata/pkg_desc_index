@@ -21,7 +21,6 @@ mate-extra/caja-actions 1.26.0: Caja Actions
 mate-extra/caja-admin 0.0.5 9999: Caja Admin Extension
 mate-extra/caja-dropbox 1.26.0-r1 9999: Store, Sync and Share Files Online
 mate-extra/caja-extensions 1.26.0 1.26.0-r1 1.26.1 9999: Several Caja extensions
-mate-extra/caja-hide 0.9.0: Hide files without renaming them in MATE's Caja
 mate-extra/mate-calc 1.26.0 1.26.0-r1 9999: Calculator for MATE
 mate-extra/mate-indicator-applet 1.26.0 9999: MATE indicator applet
 mate-extra/mate-media 1.26.0 9999: Multimedia related programs for the MATE desktop
