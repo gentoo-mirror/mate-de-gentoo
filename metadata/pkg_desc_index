@@ -1,6 +1,6 @@
 acct-group/dropbox 0: System group: dropbox
 app-arch/engrampa 1.26.0-r1 1.26.0-r2 9999: Engrampa archive manager for MATE
-app-editors/pluma 1.26.0-r2 9999: Pluma text editor for the MATE desktop
+app-editors/pluma 1.26.0-r3 9999: Pluma text editor for the MATE desktop
 app-editors/pluma-plugins 1.26.0-r1: A set of plugins for Pluma, the MATE text editor.
 app-text/atril 1.26.0-r4 9999: Atril document viewer for MATE
 dev-libs/libmateweather 1.26.0 9999: MATE library to access weather information from online services
