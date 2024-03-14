@@ -1,18 +1,16 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-if [[ "${PV}" == *9999 ]]; then
-	MATE_BRANCH=9999
-	MATE_THEMES_V=9999
-else
-	MATE_BRANCH="$(ver_cut 1-2)"
-	MATE_THEMES_V=3
+MATE_THEMES_V=3
+MATE_BRANCH="$(ver_cut 1-2)"
+MINOR=$(($(ver_cut 2) % 2))
+
+if [[ ${MINOR} -eq 0 ]]; then
 	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~riscv ~x86"
 fi
 
-SRC_URI=""
 DESCRIPTION="Meta ebuild for MATE, a traditional desktop environment"
 HOMEPAGE="https://mate-desktop.org"
 
@@ -42,6 +40,7 @@ RDEPEND="
 	themes? (
 		=x11-themes/mate-backgrounds-${MATE_BRANCH}*
 		=x11-themes/mate-icon-theme-${MATE_BRANCH}*
+		=x11-themes/mate-themes-${MATE_THEMES_V}*
 	)
 	extras? (
 		=app-arch/engrampa-${MATE_BRANCH}*
@@ -49,7 +48,7 @@ RDEPEND="
 		=app-text/atril-${MATE_BRANCH}*
 		=mate-extra/caja-extensions-${MATE_BRANCH}*
 		=mate-extra/mate-calc-${MATE_BRANCH}*
-		=mate-extra/mate-netbook-${MATE_BRANCH}*
+		=mate-extra/mate-netbook-1.27*
 		=mate-extra/mate-power-manager-${MATE_BRANCH}*
 		=mate-extra/mate-screensaver-${MATE_BRANCH}*
 		=mate-extra/mate-system-monitor-${MATE_BRANCH}*
@@ -67,6 +66,9 @@ PDEPEND="
 	virtual/notification-daemon:0"
 
 pkg_postinst() {
+	elog "1.27.x is a development release, if a stable desktop experince is required then use 1.26."
+	elog "Please report all issues to https:/bugs.gentoo.org"
+	elog ""
 	elog "For installation, usage and troubleshooting details regarding MATE;"
 	elog "read more about it at Gentoo Wiki: https://wiki.gentoo.org/wiki/MATE"
 	elog ""
@@ -79,5 +81,4 @@ pkg_postinst() {
 	elog "		mate-extra/caja-dropbox"
 	elog "		mate-extra/mate-user-share"
 	elog "		mate-extra/caja-admin"
-	elog "		mate-extra/caja-hide"
 }

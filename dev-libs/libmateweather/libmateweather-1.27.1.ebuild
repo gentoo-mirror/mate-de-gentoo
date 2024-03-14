@@ -1,13 +1,14 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 MATE_LA_PUNT="yes"
 
 inherit mate
 
-if [[ "${PV}" != *9999 ]]; then
+MINOR=$(($(ver_cut 2) % 2))
+if [[ ${MINOR} -eq 0 ]]; then
 	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~riscv ~x86"
 fi
 
@@ -17,8 +18,7 @@ SLOT="0"
 
 IUSE="debug"
 
-COMMON_DEPEND="
-	>=dev-libs/glib-2.56:2
+COMMON_DEPEND=">=dev-libs/glib-2.56:2
 	>=dev-libs/libxml2-2.6:2
 	>=net-libs/libsoup-2.54:2.4
 	>=sys-libs/timezone-data-2010k:0
@@ -34,9 +34,9 @@ DEPEND="${RDEPEND}"
 
 BDEPEND="
 	dev-util/gtk-doc
-	dev-util/gtk-doc-am
+	dev-build/gtk-doc-am
 	>=sys-devel/gettext-0.19.8
-	>=sys-devel/libtool-2.2.6:2
+	>=dev-build/libtool-2.2.6:2
 	virtual/pkgconfig
 "
 
